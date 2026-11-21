@@ -43,8 +43,8 @@ export const RESTAURANT_INFO = {
     { day: "Dienstag", hours: "12:00 – 14:30 & 17:00 – 22:00 Uhr", isClosed: false },
     { day: "Mittwoch", hours: "12:00 – 14:30 & 17:00 – 22:00 Uhr", isClosed: false },
     { day: "Donnerstag", hours: "12:00 – 14:30 & 17:00 – 22:00 Uhr", isClosed: false },
-    { day: "Freitag", hours: "12:00 – 14:30 & 17:00 – 22:00 Uhr", isClosed: false },
-    { day: "Samstag", hours: "12:00 – 14:30 & 17:00 – 22:00 Uhr", isClosed: false },
+    { day: "Freitag", hours: "12:00 – 14:30 & 17:00 – 23:00 Uhr", isClosed: false },
+    { day: "Samstag", hours: "12:00 – 14:30 & 17:00 – 23:00 Uhr", isClosed: false },
     { day: "Sonntag", hours: "12:00 – 14:30 & 17:00 – 22:00 Uhr", isClosed: false },
   ],
   highlights: [
@@ -272,8 +272,8 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       },
       {
         number: "42",
-        name: "Tagliatelle alla Carbonara",
-        description: "Knuspriger Speck, cremiges Eigelb, frisch geriebener Parmesan und schwarzer Pfeffer",
+        name: "Spaghetti Carbonara",
+        description: "Guanciale, cremiges Eigelb, frisch geriebener Parmesan und schwarzer Pfeffer",
         price: "16,00 €",
         priceNum: 16.0,
         subCategory: "Pasta",

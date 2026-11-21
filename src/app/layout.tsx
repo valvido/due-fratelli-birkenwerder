@@ -56,15 +56,27 @@ const restaurantJsonLd = {
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      dayOfWeek: ["Tuesday", "Wednesday", "Thursday", "Sunday"],
       opens: "12:00",
       closes: "14:30",
     },
     {
       "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      dayOfWeek: ["Tuesday", "Wednesday", "Thursday", "Sunday"],
       opens: "17:00",
       closes: "22:00",
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Friday", "Saturday"],
+      opens: "12:00",
+      closes: "14:30",
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Friday", "Saturday"],
+      opens: "17:00",
+      closes: "23:00",
     },
   ],
 };

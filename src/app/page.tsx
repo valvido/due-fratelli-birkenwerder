@@ -96,7 +96,7 @@ export default function DueFratelliPage() {
             </span>
             <span className="hidden md:inline-flex items-center gap-1.5 text-cream-200/80">
               <Clock className="h-3.5 w-3.5 text-gold-400" />
-              Di–So: 12:00–14:30 & 17:00–22:00 Uhr (Mo Ruhetag)
+              Di–Do & So: 12:00–14:30 & 17:00–22:00 • Fr–Sa: 12:00–14:30 & 17:00–23:00 Uhr (Mo Ruhetag)
             </span>
           </div>
           <div className="flex items-center gap-4">
@@ -294,9 +294,14 @@ export default function DueFratelliPage() {
                   <Clock className="h-5 w-5 shrink-0 text-gold-400 mt-0.5" />
                   <div>
                     <p className="text-xs uppercase tracking-wider text-gold-400 font-semibold">
-                      Öffnungszeiten
+                      Öffnungszeiten (Mo Ruhetag)
                     </p>
-                    <p className="text-sm text-cream-100">Di–So 12:00–14:30 & 17:00–22:00 Uhr</p>
+                    <p className="text-sm text-cream-100">
+                      Di–Do & So: 12:00–14:30 & 17:00–22:00 Uhr
+                    </p>
+                    <p className="text-xs text-gold-300 mt-0.5">
+                      Fr–Sa: 12:00–14:30 & 17:00–23:00 Uhr
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -987,6 +992,9 @@ export default function DueFratelliPage() {
                 Inhaber: {RESTAURANT_INFO.owner} • {RESTAURANT_INFO.address.street},{" "}
                 {RESTAURANT_INFO.address.zip} {RESTAURANT_INFO.address.city} • Tel.{" "}
                 {RESTAURANT_INFO.phone}
+              </p>
+              <p className="mt-1 text-cream-200/70">
+                Öffnungszeiten: Di–Do & So 12:00–14:30 & 17:00–22:00 Uhr • Fr–Sa 12:00–14:30 & 17:00–23:00 Uhr (Mo Ruhetag)
               </p>
             </div>
 
